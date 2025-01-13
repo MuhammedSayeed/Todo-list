@@ -22,7 +22,7 @@ export async function TodoTable() {
 
 
     return (
-        <Table>
+        <Table >
             <TableCaption className=" text-center">A list of your recent Todos.</TableCaption>
             <TableHeader>
                 <TableRow>

@@ -11,7 +11,7 @@ export default async function Home() {
   
 
   return (
-    <main className="container mx-auto space-y-2">
+    <main className="container mx-auto space-y-2 px-2">
       <AddTodoForm userId={userId} />
       <TodoTable />
     </main>
